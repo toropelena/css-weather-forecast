@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+
+html, body{
+	height: 100%;        
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	border: 20px solid #2b81ac;
+	min-height: 100%;
+	background: #39c;
+	text-align: center;
+	color: #fff;
+}
+
+
+
+h1, footer {
+	text-align: left;
+}
+
+h1 i {
+	font-size: 26px;
+}
+
+main {
+	margin: 0 auto;
+	width: 70%;
+	/* Позиционирование по центру */
+	/* position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	 */
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 0;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+}
+
+ul li {
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	padding: 30px 0; 
+}
+.city_small {
+	width: 25%;
+}
+.city_mid {
+	width: 50%;
+}
+.city_large {
+	width: 100%;
+}
+i {
+	font-size: 18px;
+	
+}
+
+span {
+	opacity: .7;
+}
+p {
+	margin: 0 0 7px;
+}
+
+.city_blue {
+	background-color: #39c;
+}
+.city_lightblue {
+	background-color: #3cc;
+}
+.city_pur {
+	background-color: #969;
+}
+.city_red {
+	background-color: #c24747;
+}
+.city_orang {
+	background-color: #e2674a;
+}
+.city_yellow {
+	background-color: #fc6;
+}
+.city_lightgreen {
+	background-color: #9c9;
+}
+.city_greygreen {
+	background-color: #699;
+}
+.city_pink {
+	background-color: #c69;
+}
+.city_green {
+	background-color: #396;
+}
+.city_darkblue {
+	background-color: #669;
+}
+
+/* ul:hover li {
+	opacity: .5;
+}
+
+ul li:hover {
+	opacity: 1;
+} */
+
+footer {
+	margin-top: 15px;
+}
+
+ul:hover li:not(:hover) {
+	opacity: .5;
+}
